@@ -1,9 +1,9 @@
-import './index.css';
+import "./index.css";
 
 function component() {
-    const element = document.createElement('div');
-    element.innerHTML = 'Webpack Template Setup Complete';
-    return element;
+  const element = document.createElement("div");
+  element.innerHTML = "Webpack Template Setup Complete";
+  return element;
 }
 
-document.getElementById('content').appendChild(component());
+document.getElementById("content").appendChild(component());
